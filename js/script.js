@@ -12,6 +12,7 @@ function arabicc(){
     document.getElementById("or-en").style.display = "none";
     document.getElementById("create-en").style.display = "none";
     document.getElementById("select-en").style.display = "none";
+    document.getElementsByClassName("sign-btn").style.padding = "4px 0";
 }
 function englishh(){
     document.getElementById("ar").style.display = "none";
@@ -24,4 +25,6 @@ function englishh(){
     document.getElementById("or-en").style.display = "block";
     document.getElementById("create-en").style.display = "block";
     document.getElementById("select-en").style.display = "block";
+    document.getElementsByClassName("sign-btn").style.padding = "8px 0";
 }
+
