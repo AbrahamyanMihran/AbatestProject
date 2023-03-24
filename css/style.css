@@ -32,6 +32,7 @@ header{
     font-family: sans-serif;
     color: #4F008B;
 }
+
 .img{
     margin-top: 30px;
     width: 90%;
@@ -63,6 +64,7 @@ header{
     border: none;
     border-radius: 5px;
 }
+
 .create-btn{
     color: white;
     background-color:#4F008B;
@@ -73,6 +75,7 @@ header{
     border: none;
     border-radius: 5px;
 }
+
 
 .languages{
     width: 100%;
@@ -102,6 +105,11 @@ header{
     border: none;
     border-radius: 5px;
 }
+.english-btn:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid  rgba(0, 0, 0, 0.7);
+}
 .arabic-btn{
     color: white;
     background-color:#4F008B;
@@ -111,4 +119,26 @@ header{
     padding: 8px 0;
     border: none;
     border-radius: 5px;
+}
+.arabic-btn:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid  rgba(0, 0, 0, 0.7);
+}
+
+/* /////////////////////////// for language/////////////////////////// */
+#ar{
+    display: none;
+}
+#sign-ar{
+    display: none;
+}
+#create-ar{
+    display: none;
+}
+#or-ar{
+    display: none;
+}
+#select-ar{
+    display: none;
 }

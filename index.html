@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <title>Abatest</title>
 </head>
 <body>
@@ -12,20 +13,35 @@
         <h3 class="header-title">ABATEST<span class="project">PROJECT</span></h3>
     </header>
     <div class="container">
-        <p class="welcome">Welcome to AbatestProject</p>
+        <p class="welcome">
+            <span id="en"> Welcome to AbatestProject </span>
+            <span id="ar"> AbatestProject مرحبا بكم في </span>
+        </p>
         <div class="img">
             <img src="img/Picture1.png" alt="error">
         </div>
         <div class="buttons">
-            <button class="sign-btn">Sign In</button>
-            <p>or</p>
-            <button class="create-btn">Create Accaunt</button>
+            <button class="sign-btn"> 
+                <span id="sign-en">Sign In</span>
+                <span id="sign-ar">تسجيل الدخول</span>
+            </button>
+            <p>
+                <span id="or-en">or</span>
+                <span id="or-ar">أو</span>
+            </p>
+            <button class="create-btn">
+                <span id="create-en">Create Account</span>
+                <span id="create-ar">إنشاء حساب</span>
+            </button>
         </div>
         <div class="languages">
-            <p class="lang-p">Select Your language</p>
+            <p class="lang-p">
+                <span id="select-en">Select Your language</span>
+                <span id="select-ar">اختر لغتك</span>
+            </p>
             <div class="languages-btns">
-                <button class="english-btn">English</button>
-                <button class="arabic-btn">العربية</button>
+                <button class="english-btn" id="english-btn" onclick="englishh()">English</button>
+                <button class="arabic-btn" id="arabic-btn" onclick="arabicc()">العربية</button>
             </div>
         </div>
     </div>
