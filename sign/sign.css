@@ -95,3 +95,30 @@ header{
 #ar{
     display: none;
 }
+
+
+
+.big-popup{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.164);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+}
+.big-popup-open{
+    opacity: 1;
+}
+.popup{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

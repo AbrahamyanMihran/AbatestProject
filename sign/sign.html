@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign.css">
-    <script src="js/script.js"></script>
+    <script src="./sign.js"></script>
     <title>Abatest</title>
 </head>
 <body>
@@ -33,9 +33,24 @@
             Sign In with UAE
         </button>
         <!-- ---------------------------------------------------footer---------------------------- -->
-        <a href="" class="help">Need help?</a>
-        <a href="" class="help2">Start over and create a new account
+        <a href="" class="help" id="help">Need help?</a>
+        <a href="../index.html" class="help2">Start over and create a new account
         </a>
+
+        <!-- -------------------------------Pop up----------------------- -->
+        <div class="big-popup" id="pop">
+            <div class="popup">
+            <h1>POp</h1>
+            </div>
+        </div>
     </div>
+    <script>
+        const help = document.getElementById("help");
+        help.addEventListener("click" , () => {
+            const popUp = document.getElementById("pop");
+            popUp.classList.add("big-popup-open")
+        })
+    </script>
+    
 </body>
 </html>

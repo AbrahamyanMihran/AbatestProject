@@ -137,10 +137,12 @@ header{
 #sign-ar{
     display: none;
     margin: -4px 0;
+    padding: 9px 0;
 }
 #create-ar{
     display: none;
     margin: -4px 0;
+    padding: 9px 0;
 }
 #or-ar{
     display: none;
